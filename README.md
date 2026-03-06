@@ -1,34 +1,135 @@
 # Sistema-Cadastro-Alunos
  
-Um Sistema de Cadastro de Alunos em Java que permite registrar e visualizar informações de alunos de forma simples e interativa.
-Como funciona?
+Este projeto é um sistema simples de cadastro de alunos desenvolvido em Java, executado via terminal. O objetivo foi praticar conceitos fundamentais da linguagem, como programação orientada a objetos, uso de listas, entrada de dados com Scanner e organização do código em múltiplas classes.
 
-Aluno.java: Define a estrutura de um aluno (ID, nome, email)
+O sistema permite cadastrar alunos e visualizar todos os registros armazenados durante a execução do programa.
 
-sistemaCadastro.java: Gerencia a lista de alunos em memória
+*Funcionalidades*
 
-Main.java: Fornece interface com menu interativo
+Cadastro de alunos com ID, nome e email
 
-Funcionalidades principais:
-Cadastrar novo aluno
-Visualizar todos os alunos
-Menu intuitivo em linha de comando
+Armazenamento dos dados em uma lista dinâmica (ArrayList)
 
-Tecnologias:
+Visualização de todos os alunos cadastrados
+
+Interface simples no terminal com menu interativo
+
+*Estrutura do Projeto*
+
+O projeto foi dividido em três classes principais:
+
+Aluno.java
+
+Responsável por representar a entidade aluno, contendo:
+
+ID
+
+Nome
+
+Email
+Também possui um método para retornar as informações formatadas do aluno.
+
+sistemaCadastro.java
+
+Gerencia a lista de alunos cadastrados utilizando uma ArrayList.
+
+Contém métodos para:
+
+cadastrar novos alunos
+
+listar todos os alunos registrados
+
+Main.java
+Classe principal que executa o programa.
+Ela controla o menu interativo, recebe dados do usuário via Scanner e chama os métodos do sistema de cadastro.
+
+*Tecnologias utilizadas*
+
 Java
-ArrayList (armazenamento)
-Scanner (entrada de dados)
 
-English version 
+Programação Orientada a Objetos (POO)
 
-A Java-based Student Registration System that allows you to register and view student information in a simple and interactive way. How does it work?
+ArrayList (estrutura de dados)
 
-Aluno.java: Defines the structure of a student (ID, name, email)
+Scanner para entrada de dados no terminal
 
-sistemaCadastro.java: Manages the student list in memory
+*Objetivo do projeto*
 
-Main.java: Provides an interface with an interactive menu
+Este projeto foi desenvolvido com foco em prática e aprendizado de Java, especialmente:
 
-Main features: Register new students View all students Intuitive command-line menu
+organização de código em múltiplas classes
 
-Technologies: Java ArrayList (storage) Scanner (data input)
+manipulação de listas
+
+interação com o usuário via terminal
+
+aplicação de conceitos básicos de POO
+
+
+**English Version**
+
+This project is a simple student registration system developed in Java, executed via the terminal. The objective was to practice fundamental language concepts, such as object-oriented programming, use of lists, data input with Scanner, and code organization into multiple classes.
+
+The system allows you to register students and view all records stored during program execution.
+
+*Functionalities*
+
+Student registration with ID, name, and email
+
+Data storage in a dynamic list (ArrayList)
+
+Viewing of all registered students
+
+Simple terminal interface with interactive menu
+
+*Project Structure*
+
+The project was divided into three main classes:
+
+Aluno.java
+
+Responsible for representing the student entity, containing:
+
+ID
+
+Name
+
+Email
+
+It also has a method to return the formatted student information.
+
+sistemaCadastro.java
+
+Manages the list of registered students using an ArrayList.
+
+Contains methods for:
+
+registering new students
+
+listing all registered students
+
+Main.java Main class that executes the program.
+
+It controls the interactive menu, receives user data via Scanner, and calls the registration system methods.
+
+*Technologies used*
+
+Java
+
+Object-Oriented Programming (OOP)
+
+ArrayList (data structure)
+
+Scanner for data input in the terminal
+
+*Project Objective*
+
+This project was developed focusing on Java practice and learning, especially:
+
+code organization in multiple classes
+
+list manipulation
+
+user interaction via terminal
+
+application of basic OOP concepts
